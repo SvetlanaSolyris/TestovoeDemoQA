@@ -56,7 +56,7 @@ public class MainTest extends BaseTest {
 */
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void textIsVisibleDemoqaTest() {
 //      driver.findElement(By.id("item-4")).click();
 //      driver.findElement(By.xpath("(//button[@type='button'])[last()]")).click();
