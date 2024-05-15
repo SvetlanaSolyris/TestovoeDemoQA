@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69faa2e0-bac3-497b-9e90-7aa690e97d2b" name="Changes" comment="Первый коммит проекта">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="69faa2e0-bac3-497b-9e90-7aa690e97d2b" name="Changes" comment="Первый коммит проекта" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,19 +29,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Я/Desktop/ProjectJava/aqa-api-test",
-    "onboarding.tips.debug.path": "C:/Users/Я/Desktop/ProjectJava/Testovoe/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.11954023",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Я/Desktop/ProjectJava/aqa-api-test&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Я/Desktop/ProjectJava/Testovoe/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.11954023&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Я\Desktop\ProjectJava\Testovoe\src\test\resources" />

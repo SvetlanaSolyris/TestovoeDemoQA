@@ -2,6 +2,7 @@ package runner;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Step;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,8 +19,9 @@ public abstract class BaseTest {
 
     static WebDriver createDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--window-size=1920,1080"); // Установите нужное разрешение экрана
-        options.addArguments("--force-device-scale-factor=1.5"); // Установите нужный процент масштаба (1.5 = 150%)
+        //options.addArguments("--window-size=1920,1080"); // Установите нужное разрешение экрана
+        options.addArguments("--force-device-scale-factor=0.7"); // Установите нужный процент масштаба (1.5 = 150%)
+        options.setPageLoadStrategy(PageLoadStrategy.EAGER);
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
