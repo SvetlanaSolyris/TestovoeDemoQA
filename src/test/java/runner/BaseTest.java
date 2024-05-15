@@ -1,70 +1,82 @@
 package runner;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
+import java.time.Duration;
 
 public abstract class BaseTest {
 
-   private WebDriver driver;
+    private WebDriver driver;
 
 //    private WebDriverWait wait5;
 
-//    private void startDriver() {
-//        driver = new ChromeDriver();
-//        driver.get("https://demoqa.com/");
-//    }
+    static WebDriver createDriver() {
+        WebDriverManager.chromedriver().setup();
+        WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
-//    @BeforeClass
-//    protected void beforeClass() {
-//        System.out.println("Перед классаом");
-//        System.out.println(getClass());
-//    }
-//
-//    @AfterClass
-//    protected void afterClass() {
-//        System.out.println("После класса");
-//        System.out.println(getClass());
-//    }
-//
-//    @BeforeSuite
-//    protected void beforeSuite() {
-//        System.out.println("Перед каждым сьютом");
-//    }
+        return driver;
+    }
 
-    @BeforeMethod
+    private void startDriver() {
+        driver = createDriver();
+    }
+
+    @BeforeClass
+    protected void beforeClass() {
+        System.out.println("Перед классаом");
+        System.out.println(getClass());
+    }
+
+    @AfterClass
+    protected void afterClass() {
+        System.out.println("После класса");
+        System.out.println(getClass());
+    }
+
+    @BeforeSuite
+    protected void beforeSuite() {
+        System.out.println("Перед каждым сьютом");
+    }
+
+    @BeforeMethod(alwaysRun = true)
+    @Step("Инициализация браузера")
     protected void beforeMethod(Method method) {
         System.out.println("Перед каждым методом");
         System.out.println(method.getName());
-        driver = new ChromeDriver();
+
+        startDriver();
         driver.get("https://demoqa.com/");
-        System.out.println(driver.getCurrentUrl());
-//        startDriver();
-//        System.out.println(driver);
+        System.out.println(driver);
+        System.out.println("Драйвер инициализирован: " + driver);
     }
 
-//    @BeforeTest(alwaysRun = true)
-//    protected void beforeTest() {
-//
-//        System.out.println("Перед каждым тестом");
-//
-//        startDriver();
-//        driver.get("https://demoqa.com/");
-//    }
+    @BeforeTest(alwaysRun = true)
+    protected void beforeTest() {
 
-    @AfterMethod
+        System.out.println("Перед каждым тестом");
+
+    }
+
+    @AfterMethod(alwaysRun = true)
     protected void afterMethod(Method method) {
         System.out.println("После каждого метода");
         System.out.println(method.getName());
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     protected WebDriver getDriver() {
-        System.out.println(driver.getCurrentUrl());
+
+        if (driver != null) {
+            System.out.println("Текущий URL: " + driver.getCurrentUrl());
+        }
         return driver;
     }
 }

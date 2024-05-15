@@ -1,18 +1,17 @@
 package test;
 
-//import io.qameta.allure.*;
-//import io.qameta.allure.testng.AllureTestNg;
+import io.qameta.allure.*;
+import io.qameta.allure.testng.AllureTestNg;
 import model.HomePage;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import runner.BaseTest;
 
 import java.util.List;
 
-//@Epic(value = "Тестовое задание 1")
-//@Feature(value = "Фича 1")
-//@Story(value = "US-1")
+@Epic(value = "Тестовое задание 1")
+@Feature(value = "Фича 1")
+@Story(value = "US-1")
 public class MainTest extends BaseTest {
 
     final String FULL_NAME = "Иванов Иван Иванович";
@@ -23,12 +22,12 @@ public class MainTest extends BaseTest {
     List<String> list = List.of(FULL_NAME, E_MAIL, CURRENT_ADDRESS, PERMANENT_ADDRESS);
 
     @Test (groups = "smoke")
-//    @Description(value = "Проверить, что данные в блоке сохранены корректно.")
-//    @Severity(SeverityLevel.CRITICAL)
-//    @Owner("Кто создал тест")
-//    @Link(name = "Website", url = "https://demoqa.com/")
-//    @Issue("AUTH-123")
-//    @TmsLink(value = "TMS-456")
+    @Description(value = "Проверить, что данные в блоке сохранены корректно.")
+    @Severity(SeverityLevel.CRITICAL)
+    @Owner("Кто создал тест")
+    @Link(name = "Website", url = "https://demoqa.com/")
+    @Issue("AUTH-123")
+    @TmsLink(value = "TMS-456")
     public void dataSaveCorrectlyDemoqaTest() {
 
         List<String> currentFiled = new HomePage(getDriver())

@@ -8,7 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Я/Desktop/ProjectJava/JenkinsQA_2024_spring",
+    "last_opened_file_path": "C:/Users/Я/Desktop/ProjectJava/aqa-api-test",
     "onboarding.tips.debug.path": "C:/Users/Я/Desktop/ProjectJava/Testovoe/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -56,7 +59,7 @@
       <recent name="C:\Users\Я\Desktop\ProjectJava\Testovoe\src\test\java\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainTest.dataSaveCorrectlyDemoqaTest">
+  <component name="RunManager" selected="TestNG.MainTest.textIsVisibleDemoqaTest">
     <configuration name="C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/java/test/Testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testovoe" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/test/Testng.xml" />
@@ -125,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainTest.dataSaveCorrectlyDemoqaTest" />
         <item itemvalue="TestNG.MainTest.textIsVisibleDemoqaTest" />
+        <item itemvalue="TestNG.MainTest.dataSaveCorrectlyDemoqaTest" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/resources/Testng.xml" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/java/test/Testng.xml" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/resources/testng.xml" />
@@ -174,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715781249962</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Первый коммит проекта">
+      <option name="closed" value="true" />
+      <created>1715785507585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715785507585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
