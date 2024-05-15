@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69faa2e0-bac3-497b-9e90-7aa690e97d2b" name="Changes" comment="Первый коммит проекта" />
+    <list default="true" id="69faa2e0-bac3-497b-9e90-7aa690e97d2b" name="Changes" comment="Первый коммит проекта">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Я/Desktop/ProjectJava",
+    "last_opened_file_path": "C:/Users/Я/Desktop/ProjectJava/JenkinsQA_2024_spring",
     "onboarding.tips.debug.path": "C:/Users/Я/Desktop/ProjectJava/Testovoe/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -121,10 +126,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MainTest.dataSaveCorrectlyDemoqaTest" />
+        <item itemvalue="TestNG.MainTest.textIsVisibleDemoqaTest" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/resources/Testng.xml" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/java/test/Testng.xml" />
         <item itemvalue="TestNG.C:/Users/Я/Desktop/ProjectJava/Testovoe/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.MainTest.textIsVisibleDemoqaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715780898774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Первый коммит проекта">
+      <option name="closed" value="true" />
+      <created>1715781215036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715781215036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Первый коммит проекта">
+      <option name="closed" value="true" />
+      <created>1715781249962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715781249962</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,11 +192,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/runner/BaseTest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
