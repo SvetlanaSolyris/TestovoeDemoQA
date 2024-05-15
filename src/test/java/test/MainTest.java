@@ -21,7 +21,7 @@ public class MainTest extends BaseTest {
 
     List<String> list = List.of(FULL_NAME, E_MAIL, CURRENT_ADDRESS, PERMANENT_ADDRESS);
 
-    @Test (groups = "smoke")
+    @Test(groups = "smoke")
     @Description(value = "Проверить, что данные в блоке сохранены корректно.")
     @Severity(SeverityLevel.CRITICAL)
     @Owner("Кто создал тест")

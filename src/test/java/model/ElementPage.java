@@ -68,10 +68,10 @@ public class ElementPage extends BaseModel {
     }
 
     public List<String> getListAnswerBlock() {
-        String [] fullName = nameAnswerBlock.getText().split(":");
-        String [] email = emailAnswerBlock.getText().split(":");
-        String [] currentAddress =  currentAddressAnswerBlock.getText().split(":");
-        String [] permanentAddress = permanentAddressAnswerBlock.getText().split(":");
+        String[] fullName = nameAnswerBlock.getText().split(":");
+        String[] email = emailAnswerBlock.getText().split(":");
+        String[] currentAddress = currentAddressAnswerBlock.getText().split(":");
+        String[] permanentAddress = permanentAddressAnswerBlock.getText().split(":");
 
         List<String> currentFiled = List.of(fullName[1], email[1], currentAddress[1], permanentAddress[1]);
 
