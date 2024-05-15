@@ -18,9 +18,11 @@ public abstract class BaseTest {
 
     static WebDriver createDriver() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--window-size=1920,1080");
+        options.addArguments("--window-size=1920,1080"); // Установите нужное разрешение экрана
+        options.addArguments("--force-device-scale-factor=1.5"); // Установите нужный процент масштаба (1.5 = 150%)
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
         return driver;
